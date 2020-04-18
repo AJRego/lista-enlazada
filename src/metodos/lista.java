@@ -8,7 +8,24 @@ package metodos;
 /**
  *
  * @author ajrego
+ * @param <T>
  */
-public class lista {
+public class lista<T> {
+    private nodo<T> primero;
+    private nodo<T> ultimo;
+    private int tamaño;
+
+    public lista() {
+        primero = null;
+        ultimo = null;
+        tamaño = 0;
+    }
     
+    public int getTamaño(){
+        return tamaño;
+    }
+    
+    private boolean estaVacia(){
+        return tamaño == 0;
+    }
 }
