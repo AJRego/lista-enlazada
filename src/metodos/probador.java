@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package metodos;
 
 import javax.swing.JOptionPane;
 
 /**
- *
+ * esto es una prueba para el fork
  * @author ajrego
  */
 public class probador {
@@ -42,6 +38,7 @@ public class probador {
                         JOptionPane.showMessageDialog(null, "Datos de la lista:\n"+lista_enlazada.getDatosLista());
                         break;
                     case 4:
+                        JOptionPane.showMessageDialog(null, "¡Adiós!");
                         System.exit(0);
                         break;
                     default:
